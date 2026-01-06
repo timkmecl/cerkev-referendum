@@ -27,12 +27,12 @@ const Article = () => {
                 </p>
                 
                 <h1 className="text-5xl md:text-6xl lg:text-6xl font-black text-white mb-6 tracking-tighter leading-[0.95] uppercase">
-                    Operacija "Božje kraljestvo": <br/>
+                    Operacija "Nebeško kraljestvo": <br/>
                     {/* shadow under text */}
                     <span className="text-church-red drop-shadow-[0_0_15px_rgba(0,0,0,0.9)]">Kako je Cerkev ugrabila referendum</span>
                 </h1>
                 
-                <p className="text-md md:text-2xl text-slate-300 leading-snug font-serif italic max-w-3xl border-l-2 border-church-red pl-6">
+                <p className="text-md md:text-2xl text-slate-200 leading-snug font-serif italic max-w-3xl border-l-2 border-church-red pl-6">
                     Od groženj z izobčenjem in "hudičevih zakonov" do kršitev volilnega molka in "ljudi zveri". Analiza več sto župnijskih oznanil razkriva, da novembra 2025 s prižnic ni donela le božja beseda, temveč usklajena, logistično podprta in mestoma brutalna politična agitacija.
                 </p>
             </div>
@@ -67,16 +67,16 @@ const Article = () => {
             
             <div className="flex flex-col sm:flex-row justify-center gap-4 relative z-10">
               <Link 
-                to="/baza" 
+                to="/arhiv" 
                 className="inline-flex items-center justify-center px-8 py-4 bg-church-red text-white font-bold rounded-lg hover:bg-red-800 transition shadow-lg shadow-red-900/20"
               >
-                Seznam župnij <ArrowRight className="ml-2 h-5 w-5" />
+                Arhiv primerov <ArrowRight className="ml-2 h-5 w-5" />
               </Link>
               <Link 
-                to="/vsi-dokazi" 
+                to="/zupnije" 
                 className="inline-flex items-center justify-center px-8 py-4 bg-white text-gray-900 border border-gray-200 font-bold rounded-lg hover:bg-gray-50 transition"
               >
-                Vsi primeri
+                Seznam župnij
               </Link>
             </div>
           </div>
@@ -85,10 +85,15 @@ const Article = () => {
             {
               `
 
+V tednih pred referendumom je potekala neprijavljena, a **visoko organizirana in s samega vrha vodena operacija**, ki je slovenske župnije spremenila v enoten komunikacijski stroj. Preko **standardiziranih pastirskih pisem** in **neposrednih navodil škofov** so verniki prejeli jasno politično usmeritev, ki so jo podprla vizualno agresivna gradiva iniciative Pridi.com, **letaki in druga gradiva zdravnikov** s strašljivo vsebino ter serija **vodenih okroglih miz in predavanj po cerkvenih prostorih**, ki so sistematično utrjevala enotno ideološko linijo. 
 
+Ključni instrument te mobilizacije je bil **sistematičen duhovni pritisk**, ki je lepo razviden v predpisani *[Molitvi za izpolnitev Božje volje](https://portal.pridi.com/wp-content/uploads/2025/10/Podobica-Referendum-2025-3.pdf)*. Bistvo se skriva v zaključnih besedah, ki so glasovanje na referendumu spremenile v vstopnico za onostranstvo:
 
-Sledi pregled najpomembnejših taktik in strategij, ki jih je Cerkev uporabila v svoji kampanji za vplivanje na izid referenduma o zakonu o prostovljnem končanju življenja (ZPPKŽ) novembra 2025.
+> ... Daj nam poguma in moči, da se bomo *vztrajno in javno zavzemali za življenje in tako dospeli v Nebeško kraljestvo.*
 
+Z povezovanjem političnega delovanja (*zavzemanje za življenje* je namreč cerkvena koda za nasprotovanje zakonu) neposredno z **"vstopom v Nebeško kraljestvo"**, je Cerkev referendumsko odločitev dvignila na raven odrešenja. Ta oblika spiritualnega pogojevanja je dopolnjevala ostale oblike pritiska: od obveznih devetdnevnic in **posebej prirejenih mašnih namenov** za specifičen izid referenduma, do vseslovenskega **dneva strogega posta** in **koordiniranega zvonjenja zvonov**, ki je verska čustva in svete prostore neposredno vpregel v doseganje političnega cilja  – **enotnega glasovanja PROTI**.
+
+Sledi pregled najpomembnejših taktik in strategij, ki jih je Cerkev uporabila v svoji kampanji za vplivanje na izid referenduma o zakonu o prostovljnem končanju življenja (ZPPKŽ) novembra 2025. 
 Izpostavljamo glavne kategorije: neposredno **nagovarjanje** vernikov, **čustveno nabita** opozorila, deljenje **propagandnega gradiva** in organizirani **dogodki v cerkvenih prostorih**. Vsaka kategorija vsebuje konkretne primere iz arhivov, ki ilustrirajo uporabljene taktike.
 
 ## 1. Neposredno nagovarjanje

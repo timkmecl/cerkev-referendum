@@ -14,9 +14,9 @@ function App() {
       <Layout>
         <Routes>
           <Route path="/" element={<Article />} />
-          <Route path="/baza" element={<Database />} />
+          <Route path="/zupnije" element={<Database />} />
           <Route path="/zupnija/:id" element={<ParishDetail />} />
-          <Route path="/vsi-dokazi" element={<EvidenceFeed />} />
+          <Route path="/arhiv" element={<EvidenceFeed />} />
           <Route path="*" element={<Navigate to="/" replace />} />
         </Routes>
       </Layout>

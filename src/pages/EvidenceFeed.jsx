@@ -38,7 +38,7 @@ const EvidenceFeed = () => {
   return (
     <div className="w-full">
       <div className="max-w-3xl mx-auto mb-12 text-center">
-        <h2 className="text-3xl font-bold mb-3 text-gray-900">Vsi primeri</h2>
+        <h2 className="text-3xl font-bold mb-3 text-gray-900">Arhiv primerov</h2>
         <p className="text-gray-500 text-lg">
           Celoten arhiv <span className="font-bold text-church-red">{allParts.length}</span> zbranih relevantnih segmentov.
         </p>

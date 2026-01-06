@@ -38,8 +38,8 @@ const Layout = ({ children }) => {
             </div>
             <div className="flex items-center space-x-2 sm:space-x-4">
               <Link to="/" className={navLinkClass('/')}>Domov</Link>
-              <Link to="/baza" className={navLinkClass('/baza')}>Seznam župnij</Link>
-              <Link to="/vsi-dokazi" className={navLinkClass('/vsi-dokazi')}>Vsi primeri</Link>
+              <Link to="/zupnije" className={navLinkClass('/zupnije')}>Seznam župnij</Link>
+              <Link to="/arhiv" className={navLinkClass('/arhiv')}>Arhiv primerov</Link>
             </div>
           </div>
         </div>
