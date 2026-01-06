@@ -31,7 +31,7 @@ const Layout = ({ children }) => {
                   style={redFilter}
                 />
                 <div className="hidden sm:block">
-                  <h1 className="text-xl font-bold tracking-tighter uppercase leading-none text-church-red">Operacija "Božje kraljestvo"</h1>
+                  <h1 className="text-xl font-bold tracking-tighter uppercase leading-none text-church-red">Operacija Božje kraljestvo</h1>
                   <span className="text-xs text-gray-500 tracking-widest uppercase">Arhiv referendumske kampanje 2025</span>
                 </div>
               </Link>

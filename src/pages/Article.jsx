@@ -12,7 +12,7 @@ const Article = () => {
         {/* Background Image */}
         <img 
           src={`${import.meta.env.BASE_URL}assets/header.jpg`} 
-          alt="Operacija Božja Volja Header" 
+          alt="Operacija Božje kraljestvo Header" 
           className="absolute inset-0 w-full h-full object-cover object-center opacity-50"
         />
         
@@ -27,7 +27,7 @@ const Article = () => {
                 </p>
                 
                 <h1 className="text-5xl md:text-6xl lg:text-6xl font-black text-white mb-6 tracking-tighter leading-[0.95] uppercase">
-                    Operacija "Nebeško kraljestvo": <br/>
+                    Operacija "Božje kraljestvo": <br/>
                     {/* shadow under text */}
                     <span className="text-church-red drop-shadow-[0_0_15px_rgba(0,0,0,0.9)]">Kako je Cerkev ugrabila referendum</span>
                 </h1>
