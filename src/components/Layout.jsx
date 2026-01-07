@@ -31,7 +31,7 @@ const Layout = ({ children }) => {
                   style={redFilter}
                 />
                 <div className="hidden sm:block">
-                  <h1 className="text-xl font-bold tracking-tighter uppercase leading-none text-church-red">Operacija Božje kraljestvo</h1>
+                  <h1 className="text-xl font-bold tracking-tighter uppercase leading-none text-church-red">Operacija Božja volja</h1>
                   <span className="text-xs text-gray-500 tracking-widest uppercase">Arhiv referendumske kampanje 2025</span>
                 </div>
               </Link>
@@ -48,6 +48,10 @@ const Layout = ({ children }) => {
       <main className="flex-grow w-full px-4 sm:px-6 lg:px-8 py-8">
         <div className="w-full mx-auto">
           {children}
+        </div>
+        {/* copyright Tim Kmecl 2026, small text bottom center */}
+        <div className="text-center text-sm text-gray-400 mb-1 mt-4">
+            &copy; <a className='text-gray-400' href="https://kmecl.eu">Tim Kmecl</a> 2026
         </div>
       </main>
     </div>

@@ -22,18 +22,18 @@ const Article = () => {
         {/* Integrated Title Content */}
         <div className="relative z-10 w-full max-w-4xl mx-auto px-6 pb-12 md:pb-20">
             <div className="flex flex-col items-start">
-                <p className="text-church-red font-bold uppercase text-xs tracking-[0.3em] mb-4 flex items-center gap-2">
+                <p className="text-church-red font-bold uppercase text-xs tracking-[0.3em] mb-4 mt-2 flex items-center gap-2">
                     <Flame className="h-4 w-4" /> ARHIV KAMPANJE
                 </p>
                 
                 <h1 className="text-5xl md:text-6xl lg:text-6xl font-black text-white mb-6 tracking-tighter leading-[0.95] uppercase">
-                    Operacija "Božje kraljestvo": <br/>
+                    Operacija "Božja volja": <br/>
                     {/* shadow under text */}
                     <span className="text-church-red drop-shadow-[0_0_15px_rgba(0,0,0,0.9)]">Kako je Cerkev ugrabila referendum</span>
                 </h1>
                 
                 <p className="text-md md:text-2xl text-slate-200 leading-snug font-serif italic max-w-3xl border-l-2 border-church-red pl-6">
-                    Od groženj z izobčenjem in "hudičevih zakonov" do kršitev volilnega molka in "ljudi zveri". Analiza več sto župnijskih oznanil razkriva, da novembra 2025 s prižnic ni donela le božja beseda, temveč usklajena, logistično podprta in mestoma brutalna politična agitacija.
+                    Od "hudičevih zakonov" in groženj z izobčenjem do kršitev volilnega molka in "ljudi zveri". Analiza več sto župnijskih oznanil razkriva, da novembra 2025 s prižnic ni donela le božja beseda, temveč usklajena, logistično podprta in mestoma brutalna politična agitacija.
                 </p>
             </div>
         </div>
@@ -49,11 +49,15 @@ const Article = () => {
           </p> */}
 
           {/* <h3 className="text-2xl font-bold text-gray-900">Metodologija</h3> */}
+          <Markdown>
+            {`
+V tednih pred referendumom je potekala neprijavljena, a **visoko organizirana in s samega vrha vodena operacija**, ki je slovenske župnije spremenila v enoten komunikacijski stroj. Preko **standardiziranih pastirskih pisem** in **neposrednih navodil škofov** so verniki prejeli jasno politično usmeritev, ki so jo podprla vizualno agresivna gradiva iniciative Pridi.com, **letaki in druga gradiva zdravnikov** s strašljivo vsebino ter serija **vodenih okroglih miz in predavanj po cerkvenih prostorih**, ki so sistematično utrjevala enotno ideološko linijo. 
+Pomemben instrument te mobilizacije je bil **sistematičen duhovni pritisk**, ki je lepo razviden v predpisani *[Molitvi za izpolnitev Božje volje](https://portal.pridi.com/wp-content/uploads/2025/10/Podobica-Referendum-2025-3.pdf)*. S povezovanjem političnega delovanja neposredno z *"vstopom v Nebeško kraljestvo"* je Cerkev referendumsko odločitev dvignila na raven odrešenja. Ta oblika spiritualnega pogojevanja je dopolnjevala ostale oblike pritiska: od **tematskih devetdnevnic** in **posebej prirejenih mašnih namenov** za specifičen izid referenduma, do vseslovenskega **dneva strogega posta** in **koordiniranega zvonjenja zvonov**, ki je verska čustva in svete prostore neposredno vpregel v doseganje političnega cilja  – **enotnega glasovanja PROTI**.
+            `}
+          </Markdown>
           <p>
             S pomočjo naprednih orodij umetne inteligence smo sistematično pregledali digitalni odtis vseh župnij v Ljubljanski nadškofiji, Murskosoboški škofiji in Dekaniji Maribor. Algoritmi so prečesali na stotine spletnih strani, preko tisoč strani oznanil, glasil in drugih tiskovin ter na tisoče objav na Facebooku. Da bi zagotovili absolutno točnost, smo vsak zadetek ročno preverili. 
-          </p>
-          <p>
-            Rezultat je baza podatkov s preko 100 župnijami in preko 500 konkretnimi primeri agitacije, ki dokazujejo, da ne gre za izolirane incidente, temveč za usklajeno operacijo. Rezultati so zbrani v spodnji bazi.
+            Rezultat je baza podatkov, ki dokazuje, da ne gre za izolirane incidente, temveč za usklajeno operacijo. Rezultati so zbrani v tem arhivu.
           </p>
 
           {/* Call to Action Box */}
@@ -80,51 +84,48 @@ const Article = () => {
               </Link>
             </div>
           </div>
+          <div className="text-center text-sm text-gray-300 mb-0 mt-3">
+            &copy; Tim Kmecl <em>2026</em>
+          </div>
           <br />
+
           <Markdown>
             {
               `
 
-V tednih pred referendumom je potekala neprijavljena, a **visoko organizirana in s samega vrha vodena operacija**, ki je slovenske župnije spremenila v enoten komunikacijski stroj. Preko **standardiziranih pastirskih pisem** in **neposrednih navodil škofov** so verniki prejeli jasno politično usmeritev, ki so jo podprla vizualno agresivna gradiva iniciative Pridi.com, **letaki in druga gradiva zdravnikov** s strašljivo vsebino ter serija **vodenih okroglih miz in predavanj po cerkvenih prostorih**, ki so sistematično utrjevala enotno ideološko linijo. 
-
-Ključni instrument te mobilizacije je bil **sistematičen duhovni pritisk**, ki je lepo razviden v predpisani *[Molitvi za izpolnitev Božje volje](https://portal.pridi.com/wp-content/uploads/2025/10/Podobica-Referendum-2025-3.pdf)*. Bistvo se skriva v zaključnih besedah, ki so glasovanje na referendumu spremenile v vstopnico za onostranstvo:
-
-> ... Daj nam poguma in moči, da se bomo *vztrajno in javno zavzemali za življenje in tako dospeli v Nebeško kraljestvo.*
-
-Z povezovanjem političnega delovanja (*zavzemanje za življenje* je namreč cerkvena koda za nasprotovanje zakonu) neposredno z **"vstopom v Nebeško kraljestvo"**, je Cerkev referendumsko odločitev dvignila na raven odrešenja. Ta oblika spiritualnega pogojevanja je dopolnjevala ostale oblike pritiska: od obveznih devetdnevnic in **posebej prirejenih mašnih namenov** za specifičen izid referenduma, do vseslovenskega **dneva strogega posta** in **koordiniranega zvonjenja zvonov**, ki je verska čustva in svete prostore neposredno vpregel v doseganje političnega cilja  – **enotnega glasovanja PROTI**.
 
 Sledi pregled najpomembnejših taktik in strategij, ki jih je Cerkev uporabila v svoji kampanji za vplivanje na izid referenduma o zakonu o prostovljnem končanju življenja (ZPPKŽ) novembra 2025. 
 Izpostavljamo glavne kategorije: neposredno **nagovarjanje** vernikov, **čustveno nabita** opozorila, deljenje **propagandnega gradiva** in organizirani **dogodki v cerkvenih prostorih**. Vsaka kategorija vsebuje konkretne primere iz arhivov, ki ilustrirajo uporabljene taktike.
 
 ## 1. Neposredno nagovarjanje
 
-Tukaj so zbrani primeri, kjer duhovniki (župniki) v oznanilih izstopijo iz standardiziranih besedil (pastirskih pisem z nagovori PROTI, ki se pojavijo v večini župnij) in **s svojimi besedami, v prvi osebi ali z uporabo svoje avtoritete** neposredno nagovarjajo, prosijo ali celo zahtevajo določeno glasovanje.
+Tukaj so zbrani nekateri primeri, kjer duhovniki (župniki) v oznanilih izstopijo iz standardiziranih besedil (pastirskih pisem z nagovori PROTI, ki se pojavijo v večini župnij) in **s svojimi besedami, v prvi osebi ali z uporabo svoje avtoritete** neposredno nagovarjajo, prosijo ali celo zahtevajo določeno glasovanje.
 
 ### **Najostrejši neposredni ukazi in grožnje**
 
 *   **Župnija Trata - Gorenja vas:**
     Župnik uporabi izjemno močan glagol »zahtevam«:
-    *   »Na tem mestu vas prosim in - ne zamerite mi - **zahtevam**, da se skupaj z menoj, borite za človeka vredno življenje [...] Tisti, ki zagovarja ta zakon, ni na pravi strani zgodovine. [...] Molimo za zdravo pamet in pojdimo na volišča!«
+    *   »Na tem mestu vas prosim in - ne zamerite mi - **zahtevam**, da se skupaj z menoj, borite za človeka vredno življenje [...] Prosim vas, da se čez tri tedne, 23. novembra 2025, udeležite referenduma **in glasujete PROTI zakonu, PROTI uvajanju kulture smrti v Sloveniji**. To je naša **krščanska dolžnost** in človeška odgovornost do najšibkejših in do prihodnjih rodov. «
 
 *   **Župnija Homec:**
     Župnik neposredno grozi z izključitvijo iz Cerkve:
     *   »A kot vaš pastir in služabnik Resnice sem dolžan povabiti in pozvati [...] Verjamem in si celo predstavljam, da se bodo našli tudi ljudje, ki se bodo razglašali za katolike, pa bodo zakon podprli. **V svoji duhovniški in očetovski skrbi jih opominjam, da se bodo izključili iz občestva Cerkve. In to polagam na vašo vest.**«
 
 *   **Župnija Velesovo:**
-    Kratek in jasen ukaz:
+    Kratek in jasen naslov:
     *   »Slovenski škofje **in jaz vaš župnik : na referendum vsi : PROTI**«
 
 ### **Osebna pričevanja in pozivi župnikov ("Jaz bom glasoval proti")**
 
 *   **Župnija Borovnica:**
-    *   »JAZ BOM GLASOVAL PROTI.« (Zapisano z velikimi tiskanimi črkami).
+    *   »**JAZ BOM GLASOVAL PROTI.**« (Zapisano z velikimi tiskanimi črkami).
 
 *   **Župnija Ljubljana - Šentvid:**
     Župnik deli osebno refleksijo in odločitev:
     *   »Pred referendumom razmišljam, ko se kot duhovnik srečujem s pričevanji [...] **Ne, jaz sem odločno PROTI.** Ko sosed ali mladostnica želi končati svoje življenje, kakšno pomoč mu boš ponudil ti?« (Podpisano: župnik).
 
 *   **Župnija Besnica:**
-    Župnik na Facebooku objavi fotografijo svoje glasovnice:
+    Župnik na Facebooku objavi fotografijo svoje glasovnice z obkroženim PROTI:
     *   »Sem šel predčasno danes.«
 
 *   **Župnija Dol pri Ljubljani:**
@@ -133,7 +134,7 @@ Tukaj so zbrani primeri, kjer duhovniki (župniki) v oznanilih izstopijo iz stan
 
 *   **Župnija Moravče:**
     Jože Kerin se podpiše pod osebni poziv:
-    *   »Danes je dan izbire. [...] Gospod pa predme in predte, pred nas, postavlja življenje in smrt. Izbiro! Mene, tebe, nas vabi! [...] Zato izberi življenje!«
+    *   »Danes je dan izbire. [...] Gospod pa predme in predte, pred nas, postavlja **življenje in smrt. Izbiro!** Mene, tebe, nas vabi! [...] Zato **izberi življenje!**«
 
 ### **Pozivi k aktivizmu in mobilizaciji drugih**
 
@@ -153,25 +154,22 @@ Tukaj so zbrani primeri, kjer duhovniki (župniki) v oznanilih izstopijo iz stan
 
 *   **Župnija Dobrepolje - Videm:**
     Pritisk na lokalno identiteto in vest:
-    *   »**Dobrepoljci ste pametni ljudje**, zato vam ni treba posebej priporočati, da na referendumu [...] glasujemo proti usmrtitvi. [...] Bog varuj vse, da bi imeli na vesti, da smo bili krivi katere koli smrti.«
+    *   »**Dobrepoljci ste pametni ljudje**, zato vam ni treba posebej priporočati, da na referendumu 23. novembra **glasujemo proti usmrtitvi**.« in »Bog varuj vse, da **bi imeli na vesti**, da smo bili **krivi katere koli smrti**.«
 
 *   **Župnija Kamnica:**
     Župnik opredeli zakon kot satanski:
-    *   »Kar pa je **zame kot kristjana in duhovnika najhujše**, da ta zakon potepta 5. božjo zapoved [...] Ta zakon je **navdihnjen od satana**, ker hoče pod krinko pomoči uničevati ljubezen do življenja [...] Zato vas vabim, da bi se pridružili verigi molitve...«
+    *   »Ta zakon je **navdihnjen od satana**, ker hoče pod krinko pomoči uničevati ljubezen do življenja [...] Zato vas vabim, da bi se pridružili verigi molitve, **da bomo vse storili, kar je v naši moči, da ta zakon ne pride v veljavo**. ***Naj se zgodi Božja volja***.«
 
 *   **Župnija Tomišelj:**
     Čustveni pritisk s podobo osebne smrti:
-    *   »Preden obkrožite, pomislite na to, da boste sami nekoč bolni in nemočni v postelji in **nekdo vas bo ubil, čeprav bi še radi živeli**. In pa, spomnite se, da ste kristjani.«
+    *   »Preden obkrožite, pomislite na to, da boste sami nekoč bolni in nemočni v postelji in **nekdo vas bo ubil, čeprav bi še radi živeli**. In pa, **spomnite se, da ste kristjani.**«
 
 *   **Župnija Ihan:**
-    *   »Danes je referendum o potrditvi krivičnega zakona. **Ne pozabite na svojo dolžnost!**« (med volilnim molkom) in »Vabim postivce [...] da bi izbrali življenje in to tudi povedali oblastnikom, ki bi vse reševali le s pobijanjem...«
+    *   »Danes je referendum o potrditvi krivičnega zakona. **Ne pozabite na svojo dolžnost!**« (med volilnim molkom) in »Vabim postivce [...] da bi izbrali življenje in to tudi povedali **oblastnikom, ki bi vse reševali le s pobijanjem**...«
 
 *   **Župnija Bloke:**
     Župnik Simon spodbuja in pritiska:
     *   »Danes je referendum. Ne pozabimo na to našo državljansko in **tudi krščansko dolžnost**.« (med volilnim molkom), že pred tem pa »Verjamem, da imamo dovolj poguma, srca in razuma, da zakon zavrnemo.« in »Vsak kristjan z volilno pravico ima **moralno dolžnost** udeležiti referenduma...«
-
-*   **Župnija Selca:**
-    *   »Mislim, da ni potrebno poudariti kako potrebno je iti in kako glasovati. Kot lahko vsak dan bolj vidimo in slišimo, kako se zlo oglaša in bojuje proti dobremu...«
 
 *   **Župnija Rovte:**
     *   »Zato vas vabim, da v nedeljo, 23. novembra, glasujete proti zakonu o zastrupitvi bolnikov [...] Jernej, župnik«
@@ -208,6 +206,8 @@ Uporaba bibličnih in apokaliptičnih prispodob za opis moralnega propada družb
 
 *   **Župnija Bakovci:**
     *   »...da tako **človek človeku ne bo več človek, ampak zver**, ko se bo namreč on sam tudi po zakonu lahko ponižal na raven zveri...«
+*   **Župnija Selca:**
+    *   »Mislim, da ni potrebno poudariti kako potrebno je iti in kako glasovati. Kot lahko vsak dan bolj **vidimo in slišimo, kako se zlo oglaša in bojuje proti dobremu**...«
 *   **Župnija Moravče:**
     *   »V tem našem svetu lagodja [...] so nekateri zatavali v tolikšno temo... **Uzakonili so smrt, umor**, onečastili so svetost življenja...«
 
@@ -282,7 +282,7 @@ Najpogosteje se omenja **[zgibanka, ki so jo pripravili zdravniki](https://katol
 
 Seznam dogodkov (okrogle mize, predavanja, pogovorni večeri), ki so bili organizirani **neposredno v župnijskih ali cerkvenih prostorih** (cerkve, župnišča, župnijske dvorane, pastoralni domovi, katoliški zavodi).
 
-Dogodki, ki so jih župnije zgolj oglaševale, a so potekali v javnih/občinskih prostorih (npr. gasilski domovi, kulturni domovi, šole), **niso** vključeni v ta seznam.
+Številni dogodki, ki so jih župnije zgolj oglaševale, a so potekali v javnih/občinskih prostorih (npr. gasilski domovi, kulturni domovi, šole), ***niso*** vključeni v ta seznam.
 
 ### **Osrednjeslovenska regija (Ljubljana in okolica)**
 
@@ -397,6 +397,7 @@ Dogodki, ki so jih župnije zgolj oglaševale, a so potekali v javnih/občinskih
       </div>
 
       <div className="h-24"></div>
+      
     </div>
   );
 };
