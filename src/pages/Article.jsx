@@ -94,7 +94,7 @@ Pomemben instrument te mobilizacije je bil **sistematičen duhovni pritisk**, ki
               `
 
 
-Sledi pregled najpomembnejših taktik in strategij, ki jih je Cerkev uporabila v svoji kampanji za vplivanje na izid referenduma o zakonu o prostovljnem končanju življenja (ZPPKŽ) novembra 2025. 
+Sledi pregled najpomembnejših taktik in strategij, ki jih je Cerkev uporabila v svoji kampanji za vplivanje na izid referenduma o zakonu o pomoči pri prostovljnem končanju življenja (ZPPKŽ) novembra 2025. 
 Izpostavljamo glavne kategorije: neposredno **nagovarjanje** vernikov, **čustveno nabita** opozorila, deljenje **propagandnega gradiva** in organizirani **dogodki v cerkvenih prostorih**. Vsaka kategorija vsebuje konkretne primere iz arhivov, ki ilustrirajo uporabljene taktike.
 
 ## 1. Neposredno nagovarjanje
@@ -335,6 +335,13 @@ Seznam dogodkov (okrogle mize, predavanja, pogovorni večeri), ki so bili organi
     *   **Gostje:** Tatjana Fink, dr. Urh Grošelj, p. dr. Ivan Platovnjak, dr. Jernej Letnar Černič.
     *   **Naslov:** *»O mnogih pasteh asistiranega samomora.«*
     *   **Kontekst:** Javna radijska oddaja Radia Ognjišče.
+
+*   **Župnija Mengeš**
+    *   **Lokacija:** Župnijski dom.
+    *   **Čas:** Nedelja, 16. november, ob 18.00.
+    *   **Gostje:** Anja Korošec (pravnica, Društvo Dominikus), Nejc Povirk (društvo Usidrani), dr. Milan Krek (zdravnik), p. Marjan Kokalj (duhovnik, Družba Jezusove).
+    *   **Naslov:** *»"Kultura" smrti ali kultura življenja – vprašanje našega časa.«*
+    *   **Opomba:** Dogodek promovirajo tudi v Trzinu in Komendi
 
 *   **Župnija Vodice**
     *   **Lokacija:** Pastoralni dom v Vodicah.

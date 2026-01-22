@@ -39,7 +39,7 @@ const ParishDetail = () => {
 
   return (
     <div className="max-w-4xl mx-auto">
-      <Link to="/baza" className="inline-flex items-center text-gray-500 hover:text-black mb-6 transition-colors">
+      <Link to="/ZUPNIJE" className="inline-flex items-center text-gray-500 hover:text-black mb-6 transition-colors">
         <ArrowLeft className="h-4 w-4 mr-2" /> Nazaj na seznam župnij
       </Link>
 
@@ -49,10 +49,10 @@ const ParishDetail = () => {
         <p className="text-slate-400 mb-6 text-lg">{parish.naslov}</p>
         
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 border-t border-slate-700 pt-4 text-sm">
-          <div>
+          {/* <div>
             <span className="block text-slate-500 uppercase text-xs font-bold tracking-wider mb-1">Župnik</span>
             <span className="font-mono">{parish.župnik || 'Neznano / Ni podatka'}</span>
-          </div>
+          </div> */}
           <div className="flex gap-4 items-end">
             {parish.url && (
               <a href={parish.url} target="_blank" rel="noreferrer" className="text-blue-400 hover:text-blue-300 underline underline-offset-4">
