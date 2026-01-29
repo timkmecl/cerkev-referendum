@@ -6,6 +6,11 @@ import parishData from '../data/parishes.json';
 const Database = () => {
   const [searchTerm, setSearchTerm] = useState('');
 
+  // change document title
+  React.useEffect(() => {
+    document.title = "Seznam župnij | Arhiv referendumske kampanje 2025";
+  }, []);
+
   const hasEvidence = (parish, type) => {
     return parish.types && parish.types[type] && parish.types[type].documents;
   };

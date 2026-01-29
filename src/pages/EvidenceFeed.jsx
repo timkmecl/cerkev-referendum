@@ -4,6 +4,11 @@ import EvidencePart from '../components/EvidencePart';
 import parishData from '../data/parishes.json';
 
 const EvidenceFeed = () => {
+  // change document title
+  React.useEffect(() => {
+    document.title = "Arhiv primerov | Arhiv referendumske kampanje 2025";
+  }, []);
+
   // Breakpoints for masonry
   const breakpointColumnsObj = {
     default: 4,

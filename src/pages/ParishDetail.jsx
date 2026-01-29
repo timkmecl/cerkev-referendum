@@ -10,6 +10,11 @@ const ParishDetail = () => {
   const location = useLocation();
   const parish = parishData.find(p => p.id === id);
 
+  // change document title
+  React.useEffect(() => {
+    document.title = `Župnija ${parish ? parish.name : ''} | Arhiv referendumske kampanje 2025`;
+  }, []);
+
   useEffect(() => {
     // 1. Check if there is a hash in the URL (e.g., #a1b2c3d4e5f6)
     if (location.hash) {

@@ -4,6 +4,11 @@ import { ArrowRight, Flame } from 'lucide-react';
 import Markdown from 'react-markdown';
 
 const Article = () => {
+  // change document title
+  React.useEffect(() => {
+    document.title = "Operacija Božja volja | Arhiv referendumske kampanje 2025";
+  }, []);
+
   return (
     <div className="w-full">
       {/* 1. HERO HEADER WITH INTEGRATED TITLE */}
@@ -12,7 +17,7 @@ const Article = () => {
         {/* Background Image */}
         <img 
           src={`${import.meta.env.BASE_URL}assets/header.jpg`} 
-          alt="Operacija Božje kraljestvo Header" 
+          alt="Operacija Božja volja Header" 
           className="absolute inset-0 w-full h-full object-cover object-center opacity-50"
         />
         
@@ -56,8 +61,8 @@ Pomemben instrument te mobilizacije je bil **sistematičen duhovni pritisk**, ki
             `}
           </Markdown>
           <p>
-            S pomočjo naprednih orodij umetne inteligence smo sistematično pregledali digitalni odtis vseh župnij v Nadškofiji Ljubljana, za dokaz geografskega obsega pa še v Škofij Murska Sobota in Dekaniji Maribor. Algoritmi so prečesali na stotine spletnih strani, preko tisoč strani oznanil, glasil in drugih tiskovin ter na tisoče objav na Facebooku. Da bi zagotovili absolutno točnost, smo vsak zadetek ročno preverili. 
-            Rezultat je baza podatkov, ki dokazuje, da ne gre za izolirane incidente, temveč za usklajeno operacijo. Vsi odkriti primeri so zbrani v tem arhivu, izsledki raziskave pa objavljeni v članku v <a href="https://www.mladina.si/arhiv/202604/" target="_blank" rel="noopener noreferrer" className="text-church-red underline">Mladini</a>.
+            S pomočjo naprednih orodij umetne inteligence smo sistematično pregledali digitalni odtis vseh župnij v Nadškofiji Ljubljana, za dokaz geografskega obsega pa še v Škofiji Murska Sobota in Dekaniji Maribor. <strong>Algoritmi so prečesali na stotine spletnih strani, preko tisoč strani oznanil, glasil in drugih tiskovin ter na tisoče objav na Facebooku.</strong> Da bi zagotovili absolutno točnost, smo vsak zadetek ročno preverili. 
+            Rezultat je baza podatkov, ki dokazuje, da ne gre za izolirane incidente, temveč za usklajeno operacijo. Vsi odkriti primeri so zbrani v tem arhivu, izsledki raziskave pa objavljeni v <a href="https://www.mladina.si/246496/kako-je-cerkev-ugrabila-referendum/" target="_blank" rel="noopener noreferrer" className="text-church-red underline">članku v Mladini</a>.
           </p>
 
           {/* Call to Action Box */}
