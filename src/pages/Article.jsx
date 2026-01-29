@@ -33,7 +33,7 @@ const Article = () => {
                 </h1>
                 
                 <p className="text-md md:text-2xl text-slate-200 leading-snug font-serif italic max-w-3xl border-l-2 border-church-red pl-6">
-                    Od "hudičevih zakonov" in groženj z izobčenjem do kršitev volilnega molka in "ljudi zveri". Analiza več sto župnijskih oznanil razkriva, da novembra 2025 s prižnic ni donela le božja beseda, temveč usklajena, logistično podprta in mestoma brutalna politična agitacija.
+                    Od "hudičevih zakonov" in groženj z izobčenjem do kršitev volilnega molka in "ljudi zveri". Analiza več sto župnijskih oznanil in drugih dokumentov razkriva, da novembra 2025 s prižnic ni donela le božja beseda, temveč intenzivna, logistično podprta in usklajena politična agitacija.
                 </p>
             </div>
         </div>
@@ -56,8 +56,8 @@ Pomemben instrument te mobilizacije je bil **sistematičen duhovni pritisk**, ki
             `}
           </Markdown>
           <p>
-            S pomočjo naprednih orodij umetne inteligence smo sistematično pregledali digitalni odtis vseh župnij v Ljubljanski nadškofiji, Murskosoboški škofiji in Dekaniji Maribor. Algoritmi so prečesali na stotine spletnih strani, preko tisoč strani oznanil, glasil in drugih tiskovin ter na tisoče objav na Facebooku. Da bi zagotovili absolutno točnost, smo vsak zadetek ročno preverili. 
-            Rezultat je baza podatkov, ki dokazuje, da ne gre za izolirane incidente, temveč za usklajeno operacijo. Rezultati so zbrani v tem arhivu.
+            S pomočjo naprednih orodij umetne inteligence smo sistematično pregledali digitalni odtis vseh župnij v Nadškofiji Ljubljana, za dokaz geografskega obsega pa še v Škofij Murska Sobota in Dekaniji Maribor. Algoritmi so prečesali na stotine spletnih strani, preko tisoč strani oznanil, glasil in drugih tiskovin ter na tisoče objav na Facebooku. Da bi zagotovili absolutno točnost, smo vsak zadetek ročno preverili. 
+            Rezultat je baza podatkov, ki dokazuje, da ne gre za izolirane incidente, temveč za usklajeno operacijo. Vsi odkriti primeri so zbrani v tem arhivu, izsledki raziskave pa objavljeni v članku v <a href="https://www.mladina.si/arhiv/202604/" target="_blank" rel="noopener noreferrer" className="text-church-red underline">Mladini</a>.
           </p>
 
           {/* Call to Action Box */}
@@ -84,8 +84,8 @@ Pomemben instrument te mobilizacije je bil **sistematičen duhovni pritisk**, ki
               </Link>
             </div>
           </div>
-          <div className="text-center text-sm text-gray-300 mb-0 mt-3">
-            &copy; Tim Kmecl <em>2026</em>
+          <div className="text-center text-sm text-gray-400 mb-0 mt-3">
+            &copy; <a className='text-gray-400' href="https://kmecl.eu">Tim Kmecl</a> 2026
           </div>
           <br />
 
@@ -94,7 +94,7 @@ Pomemben instrument te mobilizacije je bil **sistematičen duhovni pritisk**, ki
               `
 
 
-Sledi pregled najpomembnejših taktik in strategij, ki jih je Cerkev uporabila v svoji kampanji za vplivanje na izid referenduma o zakonu o pomoči pri prostovljnem končanju življenja (ZPPKŽ) novembra 2025. 
+Sledi pregled najpomembnejših taktik, ki jih je Cerkev uporabila v času kampanje. 
 Izpostavljamo glavne kategorije: neposredno **nagovarjanje** vernikov, **čustveno nabita** opozorila, deljenje **propagandnega gradiva** in organizirani **dogodki v cerkvenih prostorih**. Vsaka kategorija vsebuje konkretne primere iz arhivov, ki ilustrirajo uporabljene taktike.
 
 ## 1. Neposredno nagovarjanje
