@@ -62,7 +62,9 @@ Pomemben instrument te mobilizacije je bil **sistematičen duhovni pritisk**, ki
           </Markdown>
           <p>
             S pomočjo naprednih orodij umetne inteligence smo sistematično pregledali digitalni odtis vseh župnij v Nadškofiji Ljubljana, za dokaz geografskega obsega pa še v Škofiji Murska Sobota in Dekaniji Maribor. <strong>Algoritmi so prečesali na stotine spletnih strani, preko tisoč strani oznanil, glasil in drugih tiskovin ter na tisoče objav na Facebooku.</strong> Da bi zagotovili absolutno točnost, smo vsak zadetek ročno preverili. 
-            Rezultat je baza podatkov, ki dokazuje, da ne gre za izolirane incidente, temveč za usklajeno operacijo. Vsi odkriti primeri so zbrani v tem arhivu, izsledki raziskave pa objavljeni v <a href="https://www.mladina.si/246496/kako-je-cerkev-ugrabila-referendum/" target="_blank" rel="noopener noreferrer" className="text-church-red underline">članku v Mladini</a>.
+            Rezultat je baza podatkov, ki dokazuje, da ne gre za izolirane incidente, temveč za usklajeno operacijo. <strong>Vsi odkriti primeri so zbrani v tem arhivu</strong>, izsledki raziskave pa objavljeni v <a href="https://www.mladina.si/246496/kako-je-cerkev-ugrabila-referendum/" target="_blank" rel="noopener noreferrer" className="text-church-red underline">članku v Mladini</a>.
+            V tem kontekstu je relevantna še <a href="https://www.mladina.si/245445/referenduma-ni-odlocila-sprememba-volje-ljudstva/" target="_blank" rel="noopener noreferrer" className="text-church-red underline">statistična analiza oddanih glasov</a>, 
+            ki jo povzema tudi <a href="https://www.facebook.com/photo.php?fbid=10241876835163865&set=a.1047790681343&id=1422981488" target="_blank" rel="noopener noreferrer" className="text-church-red underline">dr. Sašo Dolenc</a> in ki kaže na odločilen vpliv operacije na izid referenduma.
           </p>
 
           {/* Call to Action Box */}
