@@ -1,16 +1,51 @@
-# React + Vite
+# Arhiv referendumske kampanje 2025: Operacija "Božja volja"
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+[![React](https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=white)](https://react.dev/)
+[![Vite](https://img.shields.io/badge/Vite-7-646CFF?logo=vite&logoColor=white)](https://vitejs.dev/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind-3.4-38B2AC?logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
+[![License: Private](https://img.shields.io/badge/License-Private-red.svg)](LICENSE)
 
-Currently, two official plugins are available:
+An interactive digital archive and analysis of the Slovenian Catholic Church's organized political agitation during the November 2025 referendum campaign. This project documents the Church's campaign, revealing how parishes across Slovenia were transformed into a coordinated communication machine.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+**🌐 Live Site:** [kmecl.eu/cerkev-referendum](https://kmecl.eu/cerkev-referendum/)
 
-## React Compiler
+**📖 Full investigative report in *Mladina***: [Kako je cerkev ugrabila referendum](https://www.mladina.si/246496/kako-je-cerkev-ugrabila-referendum/)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 📖 Project Overview
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+This application serves as a repository for research published in *Mladina*, documenting the systematic pressure exerted by the Church. Using AI-assisted scanning of digital footprints and manual verification, the project tracks:
+
+- **100+ Parishes** across the Archdiocese of Ljubljana, Diocese of Murska Sobota, and Deanery of Maribor.
+- **500+ Specific Cases** of political agitation, including direct voting commands, spiritual threats, and distribution of propaganda.
+- **Tactics Analyzed**: Dehumanization ("people-beasts"), medical misinformation ("doctors against the law"), and spiritual conditioning (linking voting choices to "entry into the Kingdom of Heaven").
+
+## ✨ Key Features
+
+- **Interactive Database**: Filter and search through hundreds of parish records and evidence.
+- **Search by Parish**: Explore detailed profiles of each parish, including location, evidence collected, and specific tactics used.
+- **Evidence Feed**: A masonry-style gallery of archival materials, leaflets, and social media posts.
+- **Deep-Dive Analysis**: Integrated markdown-based articles explaining the methodology and findings.
+- **Responsive Design**: Fully optimized for mobile and desktop reading.
+
+## 🛠️ Tech Stack
+
+- **Frontend**: [React 19](https://react.dev/) with [Vite](https://vitejs.dev/)
+- **Styling**: [Tailwind CSS](https://tailwindcss.com/) with [@tailwindcss/typography](https://github.com/tailwindlabs/tailwindcss-typography)
+- **Routing**: [React Router DOM](https://reactrouter.com/)
+- **Icons**: [Lucide React](https://lucide.dev/)
+- **Content**: [React Markdown](https://github.com/remarkjs/react-markdown) for dynamic article rendering
+- **Layout**: [React Masonry CSS](https://github.com/paulcollett/react-masonry-css) for the evidence archive
+
+## 📂 Project Structure
+
+- `src/data/`: Contains `parishes.json` – the core database of all collected evidence.
+- `src/pages/`: Main application views (Article, Database, Evidence Feed).
+- `src/components/`: Reusable UI components (Layout, Map, ScrollToTop).
+- `public/assets/`: Static visual assets and evidence images.
+
+## ⚖️ License & Copyright
+
+&copy; 2026 [Tim Kmecl](https://kmecl.eu). All rights reserved. 
+The research and data contained within this archive were conducted in coordination with the analysis for *Mladina*.
